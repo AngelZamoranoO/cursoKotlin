@@ -59,11 +59,14 @@ fun main() {
     println("Fin del ciclo")
     println("------------LOOP SOBRE LOOP-----------")
     number = 0
-    while (number < 3){
+    salir@while (number < 3) {// se aplica referencia para salir del break o continuar
+        number++
         println("while -> $number")
-
-        var i =0
-        for (i in 1..3){
+        
+        for (i in 1..3) {
+            println("aplique un break")
+            if (number == 2 && i==2) break@salir
+            println("***$i")
         }
     }
 
