@@ -62,7 +62,7 @@ fun main() {
     salir@while (number < 3) {// se aplica referencia para salir del break o continuar
         number++
         println("while -> $number")
-        
+
         for (i in 1..3) {
             println("aplique un break")
             if (number == 2 && i==2) break@salir
