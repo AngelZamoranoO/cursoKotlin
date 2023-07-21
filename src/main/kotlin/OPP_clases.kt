@@ -10,13 +10,21 @@ class Auto {
     var color = ""
     var puertas = 0
 
-
-    fun mueve(){
+    // metodo constructor
+    constructor(name: String, model: String, color: String, puertas: Int) {
+        this.name = name
+        this.model = model
+        this.color = color
+        this.puertas = puertas
 
     }
 
-    fun detener(){
+    fun mueve() {
+        println("Funcion que mueve el auto")
+    }
 
+    fun detener() {
+        println("Funcion que detiene el auto")
     }
 
 }
