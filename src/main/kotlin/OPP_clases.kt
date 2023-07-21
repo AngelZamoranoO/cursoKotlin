@@ -2,7 +2,7 @@ fun main() {
     println("----------- POO EMPEZAMOS CON CLASES-------------")
     // las clases son una especie de plantilla para crear objetos con sus atributos
 }
-
+// cambios
 class Auto {
     // atributos
     var name = ""
